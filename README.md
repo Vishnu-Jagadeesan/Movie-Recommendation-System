@@ -9,7 +9,7 @@ This is a **preload landing page** designed to enhance user experience while the
 
 ## 🔗 Live Demo
 
-🌐 [Open Preloader Page]([https://yourusername.github.io/movie-preloader](https://vishnu-jagadeesan.github.io/Movie-Recommendation-System/)
+🌐 [Open Preloader Page]([https://vishnu-jagadeesan.github.io/Movie-Recommendation-System/](https://vishnu-jagadeesan.github.io/Movie-Recommendation-System/)
 
 ---
 
