@@ -1,7 +1,7 @@
 # Movie-Recommentation-System
 # 🎬 Movie Recommendation App Preloader
 
-This is a **preload landing page** designed to enhance user experience while the main [Movie Recommendation App](https://your-render-app.onrender.com) (hosted on [Render](https://render.com)) **wakes up** from cold start. Free-tier Render apps can go idle after inactivity — this preloader offers a clean, cinematic “loading” screen and redirects users smoothly once the app is ready.
+This is a **preload landing page** designed to enhance user experience while the main [Movie Recommendation App](https://movie-recommendation-system-using-eikc.onrender.com/) (hosted on [Render](https://render.com)) **wakes up** from cold start. Free-tier Render apps can go idle after inactivity — this preloader offers a clean, cinematic “loading” screen and redirects users smoothly once the app is ready.
 
 > 🕒 Helps avoid confusion caused by blank pages or `about:blank` while the backend starts.
 
@@ -9,7 +9,7 @@ This is a **preload landing page** designed to enhance user experience while the
 
 ## 🔗 Live Demo
 
-🌐 [Open Preloader Page](https://yourusername.github.io/movie-preloader/)
+🌐 [Open Preloader Page]([https://yourusername.github.io/movie-preloader](https://vishnu-jagadeesan.github.io/Movie-Recommendation-System/)
 
 ---
 
