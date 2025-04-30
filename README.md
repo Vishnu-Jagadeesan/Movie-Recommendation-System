@@ -43,3 +43,34 @@ This GitHub-hosted preloader:
 
    ```html
    <meta http-equiv="refresh" content="6;URL='render-link'" />
+---
+# 📄 License & Copyright
+
+© 2025 Vishnu Jagadeesan. All rights reserved.
+
+This project is the intellectual property of **Vishnu Jagadeesan** and is **not open source**.
+
+All files, designs, and code contained in this repository are protected by copyright.
+
+---
+
+## ❌ Restrictions
+
+- ❌ Unauthorized copying
+- ❌ Redistribution
+- ❌ Modification
+- ❌ Commercial use without written permission
+
+Any unauthorized use, duplication, or distribution is strictly prohibited and may result in legal action.
+
+---
+
+## 📬 Permissions & Inquiries
+
+If you wish to use this project for educational, professional, or commercial purposes, please request permission by contacting:
+
+**Vishnu Jagadeesan**  
+📧 vishnujagadeesan10@gmail.com  
+
+
+---
