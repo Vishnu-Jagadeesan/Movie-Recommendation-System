@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background: radial-gradient(circle at center, #1a1a1a, #000000);
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .cinema-screen {
+    text-align: center;
+    animation: glowIn 2s ease-out;
+  }
+  
+  .typing-text {
+    font-size: 2em;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    border-right: 2px solid #e50914;
+    animation: typing 3s steps(30, end) forwards, blink 0.75s step-end infinite;
+    margin-bottom: 20px;
+  }
+  
+  @keyframes typing {
+    to { width: 20ch; }
+  }
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  .reel-spinner {
+    margin: 25px auto;
+    width: 60px;
+    height: 60px;
+    border: 6px dashed #e50914;
+    border-radius: 50%;
+    animation: spinReel 1s linear infinite, pulseGlow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes spinReel {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  @keyframes pulseGlow {
+    0% { box-shadow: 0 0 5px #e50914; }
+    100% { box-shadow: 0 0 20px #e50914; }
+  }
+  
+  .fade-in {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #ccc;
+    opacity: 0;
+    animation: fadeIn 2s ease-out forwards;
+    animation-delay: 3.5s;
+  }
+  
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+  
+  @keyframes glowIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
