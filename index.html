@@ -10,24 +10,37 @@
   <div class="cinema-screen">
     <h1 class="typing-text">🎬 Rolling the film...</h1>
     <div class="reel-spinner"></div>
-    <p class="fade-in">Please wait while the recommendation engine starts up.</p>
+    <p class="fade-in" id="status-msg">Please wait while the recommendation engine starts up.</p>
   </div>
 
   <script>
     const targetURL = "https://movie-recommendation-system-using-eikc.onrender.com";
-    const checkHealth = async () => {
+    const healthURL = `${targetURL}/health`;
+    let retries = 0;
+
+    async function checkHealth() {
       try {
-        const res = await fetch(`${targetURL}/health`, { cache: "no-store" });
+        const res = await fetch(healthURL, {
+          cache: "no-store",
+          mode: "cors"
+        });
+
         if (res.ok) {
           window.location.href = targetURL;
         } else {
-          throw new Error("Not ready yet");
+          throw new Error("App not ready");
         }
-      } catch (e) {
-        // Retry after delay
-        setTimeout(checkHealth, 3000); // Retry every 3 seconds
+      } catch (err) {
+        retries++;
+        if (retries === 5) {
+          document.getElementById("status-msg").textContent = "Still waking up... almost there!";
+        } else if (retries >= 10) {
+          document.getElementById("status-msg").textContent = "Taking longer than usual. Please refresh or try again shortly.";
+          return;
+        }
+        setTimeout(checkHealth, 3000);
       }
-    };
+    }
 
     checkHealth();
   </script>
