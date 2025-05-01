@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Loading Movie Magic...</title>
-  <meta http-equiv="refresh" content="6;URL='https://movie-recommendation-system-using-eikc.onrender.com'" />
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" href="VJ_logo_round.ico" type="image/x-icon"
+  <link rel="icon" href="VJ_logo_round.ico" type="image/x-icon">
 </head>
 <body>
   <div class="cinema-screen">
@@ -13,5 +12,24 @@
     <div class="reel-spinner"></div>
     <p class="fade-in">Please wait while the recommendation engine starts up.</p>
   </div>
+
+  <script>
+    const targetURL = "https://movie-recommendation-system-using-eikc.onrender.com";
+    const checkHealth = async () => {
+      try {
+        const res = await fetch(`${targetURL}/health`, { cache: "no-store" });
+        if (res.ok) {
+          window.location.href = targetURL;
+        } else {
+          throw new Error("Not ready yet");
+        }
+      } catch (e) {
+        // Retry after delay
+        setTimeout(checkHealth, 3000); // Retry every 3 seconds
+      }
+    };
+
+    checkHealth();
+  </script>
 </body>
 </html>
