@@ -3,7 +3,7 @@
 
 This is a **preload landing page** designed to enhance user experience while the main [Movie Recommendation App](https://movie-recommendation-system-using-eikc.onrender.com/) (hosted on [Render](https://render.com)) **wakes up** from cold start. Free-tier Render apps can go idle after inactivity — this preloader offers a clean, cinematic “loading” screen and redirects users smoothly once the app is ready.
 
-Here is the [WEBSITE GITHUB REPO](https://github.com/Vishnu-Jagadeesan/Movie-Recommendation-System-Using-Machine-Learning)
+Here is the [MAIN WEBSITE GITHUB REPO](https://github.com/Vishnu-Jagadeesan/Movie-Recommendation-System-Using-Machine-Learning)
 
 > 🕒 Helps avoid confusion caused by blank pages or `about:blank` while the backend starts.
 
