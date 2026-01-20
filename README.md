@@ -1,6 +1,16 @@
 # Movie-Recommentation-System
 # 🎬 Movie Recommendation App Preloader
 
+![Python](https://img.shields.io/badge/backend-python-blue?logo=python)
+![Flask](https://img.shields.io/badge/framework-flask-black?logo=flask)
+![TMDb API](https://img.shields.io/badge/API-TMDB-01B4E4?logo=themoviedatabase)
+![Sentiment](https://img.shields.io/badge/sentiment-Naive%20Bayes%20%2B%20TFIDF-yellowgreen)
+![Deployment](https://img.shields.io/badge/deployed%20on-render-blueviolet?logo=render)
+![License](https://img.shields.io/badge/license-%C2%A9%20Vishnu%20Jagadeesan-blue)
+![Status](https://img.shields.io/badge/status-production--ready-brightgreen)
+
+---
+
 This is a **preload landing page** designed to enhance user experience while the main [Movie Recommendation App](https://movie-recommendation-system-using-eikc.onrender.com/) (hosted on [Render](https://render.com)) **wakes up** from cold start. Free-tier Render apps can go idle after inactivity — this preloader offers a clean, cinematic “loading” screen and redirects users smoothly once the app is ready.
 
 Here is the [Main Website GITHUB repo](https://github.com/Vishnu-Jagadeesan/Movie-Recommendation-System-Using-Machine-Learning)
@@ -72,7 +82,17 @@ Any unauthorized use, duplication, or distribution is strictly prohibited and ma
 If you wish to use this project for educational, professional, or commercial purposes, please request permission by contacting:
 
 **Vishnu Jagadeesan**  
-📧 vishnujagadeesan10@gmail.com  
+- Sending an email to [vishnuj.cs.ug@gmail.com](mailto:vishnujagadeesan10@gmail.com)
+- Connecting on [LinkedIn](https://www.linkedin.com/in/vishnu-jagadeesan/)
+- Visiting the [Portfolio Website](https://vishnujagadeesan.com) 
 
+---
+## 📄 License
+
+This project is licensed under the [Vishnu Jagadeesan](LICENSE).
+📄 License: Vishnu Jagadeesan| 🔒 All rights reserved
+
+
+> © 2025 Vishnu Jagadeesan – For academic, research, and ethical use only.
 
 ---
