@@ -82,7 +82,7 @@ Any unauthorized use, duplication, or distribution is strictly prohibited and ma
 If you wish to use this project for educational, professional, or commercial purposes, please request permission by contacting:
 
 **Vishnu Jagadeesan**  
-- Sending an email to [vishnuj.cs.ug@gmail.com](mailto:vishnujagadeesan10@gmail.com)
+- Sending an email to [Gmail](mailto:vishnujagadeesan10@gmail.com)
 - Connecting on [LinkedIn](https://www.linkedin.com/in/vishnu-jagadeesan/)
 - Visiting the [Portfolio Website](https://vishnujagadeesan.com) 
 
